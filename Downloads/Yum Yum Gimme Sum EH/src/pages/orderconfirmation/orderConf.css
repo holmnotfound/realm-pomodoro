@@ -1,0 +1,122 @@
+@import url("../../../style.css");
+
+body {
+    background-color: var(--clay);
+}
+
+.orderconfirmation-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orderconfirmation-wrapper h1 {
+    font-size: var(--page-heading);
+    font-family: 'Fira Sans';
+    color: var(--text-white);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 1rem;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.30);
+}
+
+.orderconfirmation-wrapper h2 {
+    font-size: var(--page-heading);
+    font-family: 'Fira Sans';
+    color: var(--text-white);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.30);
+    margin-bottom: 1rem;
+}
+
+.orderconfirmation-wrapper h3 {
+    font-size: 26px;
+    font-family: 'Fira Sans';
+    color: var(--text-white);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.30);
+    margin-bottom: 1.5rem;
+}
+
+.orderconfirmation-wrapper p {
+    font-size: 15px;
+    font-family: 'Fira Sans';
+    color: var(--text-white);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.30);
+    margin-bottom: 1.5rem;
+}
+
+.foodbox {
+    width: 390px;
+    height: 362px;
+    flex-shrink: 0;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+}
+
+.orderconfirmation__button {
+    display: flex;
+    font-family: 'Fira Sans';
+    color: var(--text-white);
+    font-size: var(--button-text);
+    text-decoration: none;
+    width: 358px;
+    height: 77px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    outline: none;
+}
+
+.orderconfirmation__button:active {
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.orderconfirmation__button--primary {
+    background-color: var(--coal);
+    margin-bottom: 1rem;
+}
+
+.orderconfirmation__button--secondary {
+    background-color: transparent;
+    border: 1px solid var(--text-white);
+    color: var(--text-white);
+}
+
+.popup__container {
+    width: 20em;
+    height: 5em;
+    position: fixed;
+    background-color: var(--coal);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: var(--text-light-grey);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 3px 3px 0px;
+
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+
+.popup__heading {
+    text-align: center;
+    padding: 20px;;
+}

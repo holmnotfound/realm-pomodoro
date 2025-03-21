@@ -1,0 +1,217 @@
+:root {
+    /* Colors */
+    --coal: #353131;
+    --clay: #575757;
+    --menu: #605858;
+    --menulight: #716A6A;
+    --text-light-grey: #F4F3F1;
+    --text-white: #ffffff;
+    --leaf-green: #4A8460;
+    --page-background-color: #8ED8BF;
+
+    /* Font sizes */
+    --page-heading: 32px;
+    --menu-item-title: 22px;
+    --menu-item-description: 14px;
+    --dropdown-menu-item: 24px;
+    --button-text: 24px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.orderhistorik__heading {
+    color: var(--text-white);
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+H2{
+    color: var(--text-white);
+    text-align: center;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--clay);
+    font-family: 'Fira Sans';
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    
+}
+
+#chart_div {
+    width: 100%; /* Make it responsive */
+    max-width: 300px;
+    height: 300px;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 35px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.kvitto {
+    background-color: var(--text-light-grey);
+    width: 326px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-top: 32px;
+}
+
+.kvitto__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 1rem;
+
+}
+
+.kvitto__content {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.kvitto__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    padding: 10px 0;
+}
+
+.kvitto__info {
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+.kvitto__price {
+    text-align: right; 
+    min-width: 80px; 
+}
+
+.kvitto__logga {
+    width: 50px;
+}
+
+.kvitto__order-nummer {
+    color: var(--clay, #605858);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+}
+
+.kvitto__content--antal {
+    color: var(--coal, #353131);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.kvitto__total {
+    width: 100%;
+    padding: 16px;
+    background: var(--shade-24-dark, rgba(53, 49, 49, 0.24));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kvitto__total--title {
+    color: var(--coal, #353131);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.kvitto__total--moms {
+    color: var(--coal, #353131);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.kvitto__total--summa {
+    color: var(--coal, #353131);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+
+.kvitto__total-sum-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2em;
+    width: 100%;
+    background-color: var(--menulight);
+    color: var(--text-light-grey);
+    padding: 0.9em;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.logga-ut {
+    color: var(--);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 24px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 320px;
+    height: 77px;
+    text-align: center;
+    align-self: center;
+}
+
+
+
+

@@ -1,0 +1,127 @@
+:root {
+    /* Colors */
+    --coal: #353131;
+    --clay: #575757;
+    --menu: #605858;
+    --menulight: #716A6A;
+    --text-light-grey: #F4F3F1;
+    --text-white: #ffffff;
+    --leaf-green: #4A8460;
+    --page-background-color: #8ED8BF;
+
+    /* Font sizes */
+    --page-heading: 32px;
+    --menu-item-title: 22px;
+    --menu-item-description: 14px;
+    --dropdown-menu-item: 24px;
+    --button-text: 24px; 
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.page__landing {
+    position: relative;
+    background-color: var(--page-background-color);
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page__landing::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('images/background-leaf.png');
+    background-size: cover;
+    z-index: -1;
+}
+
+.landing__wrapper {
+    width: 340px;
+    height: 660px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.16);
+    background-color: var(--clay);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing-logo--primary {
+    width: 100px;
+    height: 128px;
+    flex-shrink: 0;
+    margin-top: 3rem;
+}
+
+.h1-landingpage {
+    font-family: 'Fira Sans';
+    color: var(--text-white);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.30);
+    line-height: normal;
+    margin-top: 1.5rem;
+}
+
+.h2-landingpage {
+    font-family: 'Fira Sans';
+    color: var(--text-white);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.30);
+    line-height: normal;
+    margin-top: 1.5rem;
+    max-width: 15rem;
+}
+
+.landing__button {
+    display: flex;
+    font-family: 'Fira Sans';
+    color: var(--text-white);
+    font-size: var(--button-text);
+    text-decoration: none;
+    width: 280px;
+    height: 60px;
+    padding: 24px 16px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    outline: none;
+    margin-bottom: 1rem;
+}
+
+.landing__button:active {
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.landing__button--primary {
+    background-color: var(--coal);
+    margin-top: 1.5rem;
+}
+
+.landing__button--secondary {
+    background-color: transparent;
+    border: 1px solid var(--text-white);
+    color: var(--text-white);
+}
+
+.landing-logo--primary:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,50 @@
+# Mötesprotokoll (10 Mars 2025)
+
+Sätt en timer på 15 minuter
+Närvarande
+
+* Daniel
+* Amanda
+* Carl
+* Rasmus
+* Emilia H
+
+# Protokoll
+
+Var och en svarar på frågorna nedan, 1 person antecknar
+
+*  Vad gjorde du igår?
+*  Vad ska du göra idag?
+*  Finns det några hinder?
+
+Person 1 (Carl)
+* Carl jobbade på shoppingcart och logiken där.
+* Forsätta jobba med detta.
+* Måste snacka med Daniel så hans data stämmer överens med den datan jag tar emot. Men inget annat hinder finns.
+
+Person 2 (Daniel)
+* Daniel byggde menyn med hjälp av Api.
+* Han tror den är klart så koden ska kollas igenom och sen upp i dev.
+* Lyckas inte lösa punktlistan, men det ska vi sitta och kolla på tillsammans. Sen funkade inte bakgrundsbilden så fick ladda ner en ny. Den är dock lite för liten i höjden. 
+
+Person 3 (Amanda)
+* Amanda satt med landingssidan utifrån figma designen
+* ladningssidan är kalrt så skulle behövs kollas på innan den pushas upp i dev.
+* Hade problem emd bilderna så fick ladda ner bidlerna igen
+
+Person 4 (Rasmus)
+* Rasmus gjorde logga in sidan med logik för validering med hjälp med ett api i och med att vi inte har registering än.
+* Det bero lite på, dels kolla på user story och kolla över logiken för logga in. 
+* Har lite svårt medd css så skulle vilja ha hjälp med det.
+
+Person 5 (Emilia)
+* Emilia har jobbat med navigeringsmenyn under fredagen.
+* Navigeringsmenyn är klar och ska koden ska kollas igenom innan den pushas upp.
+* Det har inte funnits några direkta hinder. Fick prata med Carl om css för hade problem där men löste det efter några minuter.
+
+# Övrigt
+Är det någon som behöver hjälp? Bestäm vem som hoppar in och stöttar
+
+Rasmus ville ha hjälp med css så Emilia hjälper till där.
+Carl och Daniel ska hjälpa varandra med deras olika logik.
+Amanda och Emilia kan hjälpa varandra med att kolla på varandras kod. 

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="profil.css">
+    <link rel="stylesheet" href="../../components/shoppingCart/shoppingCart.css">
+    <link rel="stylesheet" href="../../../src/components/navbar/navbar.css">
+    <link rel="stylesheet" href="../../../style.css">
+    <script type="module" src="../../../main.js"></script>
+    <title>Profile page</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav__list--sidebar">
+                <li class="nav__list-element" id="x-solid"><a class="nav__list-link" href="#"><img class="nav__list-close" src="../../../images/x-solid.svg" alt="en knapp för att stänga ner hamburgar menyn"></a></li>
+                <li class="nav__list-element" id="profil"><a class="nav__list-link" href="../../../src/pages/profil/profil.html">MIN PROFIL</a> <img class="nav__list-arrrow" src="../../../images/arrow-increment.svg" alt=""></li>
+                <li class="nav__list-element"><a class="nav__list-link" href="../../../src/pages/menu/menu.html">MENY</a> <img class="nav__list-arrrow" src="../../../images/arrow-increment.svg" alt=""></li>
+                <li class="nav__list-element"><a class="nav__list-link" href="../../../src/pages/shoppingcart/shoppingcart.html">BESTÄLLNING</a><img class="nav__list-arrrow" src="../../../images/arrow-increment.svg" alt=""></li>
+                <li class="nav__list-element"><a class="nav__list-link" href="../../../src/pages/about/about.html">OM OSS</a><img class="nav__list-arrrow" src="../../../images/arrow-increment.svg" alt=""></li>
+                <li class="nav__list-element"><a class="nav__list-link" href="../../../src/pages/location/location.html">HITTA OSS</a><img class="nav__list-arrrow" src="../../../images/arrow-increment.svg" alt=""></li>
+                <li class="nav__list-element" id="last-list-item" ><a class="nav__list-link" href="../../../src/pages/login/login.html">LOGGA IN / REGISTRERA DIG</a><img class="nav__list-arrrow" src="../../../images/arrow-increment.svg" alt=""></li>
+            </ul>
+            <ul class="nav__list">
+                <li class="nav__list-content"><a class="nav__list-link" href="../../../index.html"><img class="nav__list-logo" src="../../../images/logo-white.png" alt="yum yum gimme sum logo in white"></a></li>
+                <li class="nav__list-content" id="kundkorg"></li>
+                <li class="nav__list-content" id="hamburger"><a class="nav__list-link" href="#"><img class="nav__list-hamburger" src="../../../images/hamburger-white.svg" alt="hamburgarmeny"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>DINA UPPGIFTER</h1>
+    <section class="user-info">
+        <img src="../../../images/profil-pic.png" alt="Your profile picture" class="profile-pic">
+        <span class="username"></span>
+    </section>
+    <div class="user-form">
+        <form type="submit"  id="user-form">
+            <label for="profile-pic-input">Profile picture:</label>
+            <input type="profile-pic" id="profile-pic-input">
+            <span class="profile-pic-link"></span>
+
+            <label for="email-input">E-post:</label>
+            <section class="email-section">
+                <input type="email" id="email-input" name="email" placeholder="ex. carl123@123.se">
+                <span class="email"></span>
+                <button type="button" class="info-button" id="change-email-button">Ändra e-post</button>
+            </section>
+            <label for="password-input-new">Lösenord:</label>
+            <section class="password-section">
+                <input type="password" id="password-input-new" name="password-new" minlength="5" maxlength="15" placeholder="Mellan 5-10 tecken">
+                <span class="password"></span>
+                <button type="button" class="info-button" id="change-password-button">Ändra lösenord</button>
+            </section>
+            <button id="save-changes">SPARA ÄNDRINGAR</button>
+            <a type="button" class="orderhistory-button" href="../../../src/pages/orderhistory/orderhistory.html">SE ORDERHISTORIK</a>
+        </form>
+    </div>
+    <script src="profil.js" type="module"></script>
+    <script type="module" src="../../components/navbar/navbar.js"></script>    
+</body>
+</html>

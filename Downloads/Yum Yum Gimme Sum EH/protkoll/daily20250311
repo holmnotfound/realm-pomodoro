@@ -1,0 +1,49 @@
+# Mötesprotokoll (11 Mars 2025)
+
+Sätt en timer på 15 minuter
+Närvarande
+
+* Daniel
+* Amanda
+* Carl
+* Rasmus
+* Emilia H
+
+# Protokoll
+
+Var och en svarar på frågorna nedan, 1 person antecknar
+
+*  Vad gjorde du igår?
+*  Vad ska du göra idag?
+*  Finns det några hinder?
+
+Person 1 (Carl)
+* Fixade färdigt så man kan lägga till i varukorgen. Även fixat logik för det ska kunna ha olika användare. Samt även local storage databas
+* Forsätta med användarlogiken och shoppingcarten. Fixa med navbaren.
+* Vi har problem med synligheten för menyn för vissa och carl är en av dom.
+
+Person 2 (Daniel)
+* Fixat lite med css och marginaler. Har påbörjat en about us sida i figma
+* Ska fortsätta med about me sidan
+* Är menyn som är ett litet hinder i och med att det krånglar för vissa.
+
+Person 3 (Amanda)
+* Satt med orderbekräftelse och ser ut som den gör i figma. Jobbat med function till ordernummer. 
+* Ska kolla över styling och navbaren och lägga till pending
+* Det är navbaren som är ett hinder atm.
+  
+Person 4 (Rasmus)
+* Satt med css som jag hade problem med. Såg över BEM och sen satt jag och carl med local storage. Gjorde ETA function som ska funka till orderbekräftelse.
+* Ska fortsätta med logga in sidan så logiken funkar där.
+* Det är att det inte funkar ännu med loggga in.
+
+Person 5 (Emilia)
+* Sattt och debugga knappar och navbaren. La in den på alla sidor plus fixade lite små designgrejer med padding och margin.
+* Sitta och debugga lite mer samt ta på mig en ny user story.
+* Inget större hinder direkt. Debuga är ett hinder i sig emn inget som jag ej klarar av.
+
+# Övrigt
+Är det någon som behöver hjälp? Bestäm vem som hoppar in och stöttar
+Carl och Rasmus ska hjälpa varandra med att lösa logga in delen och det problem Rasmums har stött på.
+Emilia och Amanda ska sitta med navbaren. 
+

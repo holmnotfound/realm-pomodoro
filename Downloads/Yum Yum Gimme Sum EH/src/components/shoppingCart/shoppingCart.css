@@ -1,0 +1,172 @@
+.shopping-cart__container {
+    font-family: 'Fira Sans';
+    position: relative;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 30em;
+    height: 30px;
+    z-index: 200;
+}
+
+.shopping-cart__list {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    list-style: none;
+    background-color: #F4F3F1;
+    padding: 10px;
+    margin-top: 45px;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 3px 3px 0px;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
+    gap: 20px;
+    width: 18em;
+    display: flex;
+    flex-direction: column;
+}
+
+.shopping-cart__nav > h2 {
+    position: relative;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.shopping-cart__nav > h2::after {
+    border-bottom: 1px solid #e2e2e2;
+    content: '';
+    width: 100%;
+    top: -10px;
+    left: 0;
+    position: absolute;
+}
+
+.toggle-cart {
+    pointer-events:all;
+    opacity: 1;
+}
+
+.shopping-cart__list-item {
+    display: flex;
+    align-items: center;
+}
+
+.shopping-cart__container > img {
+    width: 30px;
+}
+    
+
+.arrow {
+    width: 20px;
+    height: 100%;
+}
+
+.number-of-products {
+    font-family: 'Fira Sans';
+}
+
+.shopping-cart__navigation {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.number-of-products {
+    font-size: 16px;
+    margin-bottom: 5px;  
+}
+
+.shopping-cart__products {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.shopping-cart__products > h2 {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.shopping-cart__img {
+    transform: rotate(0deg);
+    transition: all 0.2s ease-in-out;
+    
+}
+
+.spin-cart {
+    transform: rotate(90deg);
+}
+
+.empty-cart {
+    margin-left: 5px;
+}
+
+.shopping-cart__nav--button {
+    color: var(--snow, rgba(244, 243, 241, 0.94));
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.30);
+    font-family: "Fira Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: #4A8460;
+    border: none;
+    width: 100%;
+    margin-top: 15px;
+    height: 40px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.total-amount {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shopping-cart__badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(50%, -50%);
+}
+
+.shopping-cart__clear {
+    border: none;
+    background-color: transparent;
+}
+
+.trash__img {
+    width: 25px;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.wrapper > h2::after {
+    border-bottom: 1px solid #e2e2e2;
+    content: '';
+    width: 100%;
+    top: -10px;
+    left: 0;
+    position: absolute;
+}

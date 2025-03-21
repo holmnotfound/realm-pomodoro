@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="../../../src/components/navbar/navbar.css">
+    <link rel="stylesheet" href="../../components/shoppingCart/shoppingCart.css">
+    <title>Yum Yum Gimme Sum</title>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav__list--sidebar">
+                <li class="nav__list-element" id="x-solid"><a class="nav__list-link" href="#"><img class="nav__list-close" src="../../../images/x-solid.svg" alt="en knapp för att stänga ner hamburgar menyn"></a></li>
+                <li class="nav__list-element" id="profil"><a class="nav__list-link" href="../../../src/pages/profil/profil.html">MIN PROFIL</a> <img class="nav__list-arrrow" src="../../../images/arrow-increment.svg" alt=""></li>
+                <li class="nav__list-element"><a class="nav__list-link" href="../../../src/pages/menu/menu.html">MENY</a> <img class="nav__list-arrrow" src="../../../images/arrow-increment.svg" alt=""></li>
+                <li class="nav__list-element"><a class="nav__list-link" href="../../../src/pages/shoppingcart/shoppingcart.html">BESTÄLLNING</a><img class="nav__list-arrrow" src="../../../images/arrow-increment.svg" alt=""></li>
+                <li class="nav__list-element"><a class="nav__list-link" href="../../../src/pages/about/about.html">OM OSS</a><img class="nav__list-arrrow" src="../../../images/arrow-increment.svg" alt=""></li>
+                <li class="nav__list-element"><a class="nav__list-link" href="../../../src/pages/location/location.html">HITTA OSS</a><img class="nav__list-arrrow" src="../../../images/arrow-increment.svg" alt=""></li>
+                <li class="nav__list-element" id="last-list-item" ><a class="nav__list-link" href="../../../src/pages/login/login.html">LOGGA IN / REGISTRERA DIG</a><img class="nav__list-arrrow" src="../../../images/arrow-increment.svg" alt=""></li>
+            </ul>
+            <ul class="nav__list">
+                <li class="nav__list-content"><a class="nav__list-link" href="../../../index.html"><img class="nav__list-logo" src="../../../images/logo-white.png" alt="yum yum gimme sum logo in white"></a></li>
+                <li class="nav__list-content" id="kundkorg"></li>
+                <li class="nav__list-content" id="hamburger"><a class="nav__list-link" href="#"><img class="nav__list-hamburger" src="../../../images/hamburger-white.svg" alt="hamburgarmeny"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script type="module" src="../../../main.js"></script>
+    
+
+    <section class ="about">
+        <article class="about__history">
+            <div class="about__logo">
+                <img src="../../../images/logo-red.png" alt="logo-red">
+            </div>
+            <div class="about__heading">
+                <h3>Bra mat sedan 2015</h3>
+                <p>Vi erbjuder maträtter som tar med dina smaklökar på en resa utan att lämna Staden!</p>
+            </div>
+        </article>
+        <article class="carousel" data-carousel>
+            <button class="carousel__btn prev" data-carousel-btn="prev"><img src="../../../images/back-arrow-white.svg" alt="See previous image"/></button>
+
+            <ul data-slides>
+                <li class="carousel__slide" data-active>
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fkhinskitchen.com%2Fwp-content%2Fuploads%2F2020%2F08%2Fcrispy-wonton.jpg&f=1&nofb=1&ipt=6a3b20ed20ab10a8bb4364fadbe794a5a5101068ddf83a703e3bfa6e6013b773&ipo=images" width="250" height="250" frameborder="0"></iframe>
+                </li>
+                <li class="carousel__slide">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.cookerru.com%2Fwp-content%2Fuploads%2F2022%2F09%2Fpan-fried-noodles-main-preview-1170x1170.jpg&f=1&nofb=1&ipt=39912cbb5ab376b14140f1f0fe7a423b7fbadf09ee9a3d3486cfff0c1d630a93&ipo=images" width="250" height="250" frameborder="0"></iframe>
+                </li>
+                <li class="carousel__slide">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.orientalmarket.es%2Fwp-content%2Fuploads%2F2016%2F07%2Framen.jpeg&f=1&nofb=1&ipt=590c3c637157846a129e9b5015ad42d8b219938e137644789a557baaf74b9b01&ipo=images" width="250" height="250" frameborder="0"></iframe>
+                </li>
+                <li class="carousel__slide">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.sidechef.com%2Frecipe%2F312482e5-b614-40d1-977c-c482d26f9f59.jpg%3Fd%3D1408x1120&f=1&nofb=1&ipt=4739b82f27d155ef66cb68db66d1f2aa08ba1d56343369e4b770099341536481&ipo=images" width="250" height="250" frameborder="0"></iframe>
+                </li>
+                <li class="carousel__slide">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F2a%2F7e%2F24%2F2a7e24935d64c25e76abf5dbb501fc32.jpg&f=1&nofb=1&ipt=84eae3a1485b2e4a1407e10b82596b3791a608c31771d4b80ac626705d362503&ipo=images" width="250" height="250" frameborder="0"></iframe>
+                </li>
+            </ul>
+            <button class="carousel__btn next" data-carousel-btn="next"><img src="../../../images/forward-arrow-white.svg" alt="See next image"/></button>
+        </article>
+        <article class="about__how">
+            <div class="about__heading">
+                <h3>Så fungerar det.</h3>
+                <p>Registrera dig, välj från menyn och betala. Sen lagar vi och levererar din beställning. Så vansinnigt lätt och smidigt och bra!</p>
+            </div>
+            <div class="about__flow">
+                <img src="../../../images/user-icon.svg" alt="user-icon" class="about__piktogram">
+                <img src="../../../images/arrow-icon.svg" alt="menu-icon" class="about__piktogram-arrow">
+                <img src="../../../images/menu-icon.svg" alt="menu-icon" class="about__piktogram">
+                <img src="../../../images/arrow-icon.svg" alt="menu-icon" class="about__piktogram-arrow">
+                <img src="../../../images/box-piktogram.svg" alt="menu-icon" class="about__piktogram">
+            </div>
+            <p>Vi erbjuder maträtter som tar med dina smaklökar på en resa utan att lämna Staden!</p>
+        </article>
+
+    </section> 
+    <footer class="footer">
+        <div class="footer__follow">
+            <img src="../../../images/instagram.svg" alt="instagram logo">
+            <img src="../../../images/facebook.svg" alt="facebook logo">
+            <img src="../../../images/twitter.svg" alt="twitter logo">
+        </div>
+        <div class="footer__content">
+            <div class="footer__content--info">
+                <h4>Kontakt</h4>
+                <p>Tel: 123-456 789</p>
+                <p>Mail: yygs@mat.se</p>
+            </div>
+            <div class="footer__content--info">
+                <h4>Adress</h4>
+                <p>Matgatan 15</p>
+                <p>133 11 Stockholm</p>
+            </div>
+        </div>    
+    </footer>    
+
+    <script type="module" src="about.js"></script>
+
+</body>
+</html>

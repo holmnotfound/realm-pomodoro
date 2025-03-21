@@ -1,0 +1,47 @@
+# Mötesprotokoll (18 Mars 2025)
+
+Sätt en timer på 15 minuter
+Närvarande
+
+* Daniel
+* Amanda
+* Carl
+* Rasmus
+* Emilia H
+
+# Protokoll
+
+Var och en svarar på frågorna nedan, 1 person antecknar
+
+*  Vad gjorde du igår?
+*  Vad ska du göra idag?
+*  Finns det några hinder?
+
+Person 1 (Carl)
+* Fixade så man kan ändra sina användaruppgifter.
+* Göra färdigt den delen.
+* Det är lite halvsvårt att få tiil med användaruppgifter men jag kämpar på.
+
+Person 2 (Daniel)
+* Fixade orderhistorik och gjorde så man kan scrolla på ett snyggt sätt. Sen skapade jag en filtrering på menyn med drickor, dippar och mat.
+* Ska påbörja något nytt, kanske fixa lite buggfix.
+* inga hinger
+
+Person 3 (Amanda)
+* Jag har läst igenom protokoll som jag har missat och tagit ner senaste från dev.
+* Påbörja något, eventuellt fixa med buggar eller improvments.
+* Finns inga hinder.
+
+Person 4 (Rasmus)
+* Gjorde den hitta oss sidan och blev klar med det.
+* Påbörja något, eventuellt fixa med buggar eller improvments. Kanske gör admin user storyn
+* Inga hinder.
+
+Person 5 (Emilia)
+* Fixade användertillgänglighet, där jag kollade WAVE samt fixade så man kan tabba sig igenom appen och kan göra en beställning.
+* Fortsätta med detta samt fixa lite med buggar och improvements.
+* Inga hinder för stunden.
+
+# Övrigt
+Är det någon som behöver hjälp? Bestäm vem som hoppar in och stöttar
+Kanske rasmus med admin men inte helt 100. 

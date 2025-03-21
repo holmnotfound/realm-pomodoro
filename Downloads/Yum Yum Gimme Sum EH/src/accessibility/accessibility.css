@@ -1,0 +1,20 @@
+/* button:focus,
+a:focus,
+li:focus,
+.menu__wonton:focus,
+.menu__dips-dip:focus,
+.menu__drinks-drink:focus,
+.shopping-cart__list-item:focus,
+.shopping-cart__decrement-product:focus,
+.shopping-cart__increment-product:focus {
+    outline: 3px solid #1500ff;
+    outline-offset: 2px;
+} */
+
+.landing__button--primary:focus,
+.landing__button--secondary:focus,
+.order__button--primary:focus,
+.orderconfirmation__button:focus{
+    outline: 3px solid #1500ff;
+    outline-offset: 2px;
+}
