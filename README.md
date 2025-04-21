@@ -1,4 +1,4 @@
-# 🕰️ Reals Pomodoro — Focus with Fantasy
+# 🕰️ Realm Pomodoro — Focus with Fantasy
 
 _Choose your Realm. Set your focus. Conquer your tasks._
 
