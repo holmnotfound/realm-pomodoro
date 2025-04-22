@@ -8,15 +8,8 @@ import RealmContext from "../../componments/context/RealmContext";
 
 function LandingPage() {
     const [showButtons, setShowButtons] = useState(true);
-    /* const audioRef = useRef(new Audio("src/assets/music/dark-ambient-emotions-music-259996.mp3")); */
+   
     const navigate = useNavigate();
-
-    /* const startMusic = () => {
-        if (audioRef.current) {
-            audioRef.current.loop = true;
-            audioRef.current.play();
-        }
-    }; */
 
     const handleNavigate = () => {
         navigate('/ChooseRealm');

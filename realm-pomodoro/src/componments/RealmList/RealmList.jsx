@@ -1,4 +1,4 @@
-import RealmCard from "../RealmCard/RealmCard"
+
 import RealmItem from "../RealmItem/RealmItem"
 
 function RealmList(){
