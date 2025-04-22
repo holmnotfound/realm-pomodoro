@@ -1,6 +1,6 @@
 // Timer.jsx
 import { useState, useRef } from "react";
-import Button from "../Button/button";
+import Button from "../Button/Button";
 import SmallButton from "../Button/SmallButton";
 
 function Timer() {
