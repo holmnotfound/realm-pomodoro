@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { useRef, useEffect } from "react";
-import Button from "../Button/button";
+import Button from "../Button/Button";
 
 function RealmContext() {
   const audioRef = useRef(new Audio("src/assets/music/dark-ambient-emotions-music-259996.mp3"));
