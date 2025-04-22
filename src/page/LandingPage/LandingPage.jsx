@@ -3,7 +3,7 @@
 import { useRef, useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import NavBar from "../../componments/NavBar/Navbar";
-import Button from "../../componments/Button/button";
+import Button from "../../componments/Button/Button";
 import RealmContext from "../../componments/context/RealmContext";
 
 function LandingPage() {
